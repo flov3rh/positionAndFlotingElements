@@ -19,6 +19,10 @@ q:before, q:after { content:''; }
   box-sizing: border-box;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
 body {
   display: block;
   font-family: arial;
@@ -40,8 +44,15 @@ h1 {
   font-style: italic;
 }
 
-main {
+h3{
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 
+main {
+  margin-top: 60px;
 }
 
 img {
@@ -52,6 +63,9 @@ img {
 figcaption {
   box-sizing: border-box;
   padding: 10px 15px;
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
 }
 
 /* classes */
@@ -67,13 +81,38 @@ figcaption {
 
 .center {
   display: block;
-  width: 70%;
+  width: 80%;
   margin: 40px auto;
-  background-color: red;
+
 }
 
+.header_center {
+  width: 80%;
+  margin: 30px auto;
+}
+.inline *{
+  display: inline;
+}
+
+.icon_size {
+  width: 25px;
+  height: 25px;
+}
+
+.autor {
+  margin-bottom: 30px;
+}
 /* ids */
 
 #principal_conteiner {
   display: block;
+}
+
+#principal_image {
+  width: 940px;
+  height: 540px;
+}
+
+#icon_list {
+  float: right;
 }
