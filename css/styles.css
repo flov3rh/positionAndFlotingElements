@@ -15,6 +15,11 @@ q:before, q:after { content:''; }
 
 body { display: block;}
 
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0
@@ -30,9 +35,13 @@ nav {
 }
 
 main {
-
+  display: block;
+  width: 100%;
+  background-color: blue;
+  color: white;
 }
 
 #principal_conteiner {
+  display: block;
   width: 1000px;
 }
