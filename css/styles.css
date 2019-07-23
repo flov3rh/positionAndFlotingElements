@@ -63,6 +63,9 @@ img {
 figcaption {
   box-sizing: border-box;
   padding: 10px 15px;
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
 }
 
 /* classes */
@@ -80,12 +83,12 @@ figcaption {
   display: block;
   width: 80%;
   margin: 40px auto;
-  background-color: red;
+
 }
 
 .header_center {
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
 }
 .inline *{
   display: inline;
@@ -96,6 +99,9 @@ figcaption {
   height: 25px;
 }
 
+.autor {
+  margin-bottom: 30px;
+}
 /* ids */
 
 #principal_conteiner {
