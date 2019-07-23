@@ -49,13 +49,15 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   font-style: italic;
+  text-align: justify;
+  width: 50%;
+  margin: 30px auto;
 }
 
 h3{
   text-align: left;
   font-size: 15px;
   font-weight: bold;
-  margin-bottom: 15px;
 }
 
 main {
@@ -140,6 +142,8 @@ button {
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
+
+.navbar_text:hover { text-decoration: underline;}
 
 .nav_top {
   padding-top: 6px;
