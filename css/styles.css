@@ -183,6 +183,32 @@ p {
   padding-top: 20px;
 }
 
+.more_section {
+  width: 100%;
+  height: 40px;
+  background-color: red;
+}
+
+.same_section {
+  float: left;
+  width: 65%;
+  height: 20px;
+  background-color: blue;
+}
+
+.editors_pick {
+  clear: both;
+  width: 65%;
+  height: 20px;
+  background-color: yellow;
+}
+
+.most_popular {
+  float: right;
+  width: 30%;
+  height: 20px;
+  background-color: green;
+}
 /* ids */
 
 #principal_conteiner {
