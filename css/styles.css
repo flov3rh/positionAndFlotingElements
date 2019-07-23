@@ -19,7 +19,10 @@ q:before, q:after { content:''; }
   box-sizing: border-box;
 }
 
-body { display: block;}
+body {
+  display: block;
+  font-family: arial;
+}
 
 nav {
   position: fixed;
@@ -33,16 +36,12 @@ nav {
 h1 {
   text-align: center;
   font-size: 40px;
-  font-family: arial;
   font-weight: bold;
   font-style: italic;
 }
 
 main {
-  display: block;
-  background-color: blue;
-  width: 80%;
-  margin: 40px auto;
+
 }
 
 img {
@@ -53,6 +52,24 @@ img {
 figcaption {
   box-sizing: border-box;
   padding: 10px 15px;
+}
+
+/* classes */
+
+.block {  display: block;}
+
+.gray {color: gray;}
+
+.story_board {
+  width: 65%;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  width: 70%;
+  margin: 40px auto;
+  background-color: red;
 }
 
 /* ids */
