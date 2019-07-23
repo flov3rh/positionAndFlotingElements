@@ -169,6 +169,20 @@ p {
   margin-top: 13px;
 }
 
+.vid_caption {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.padding_top {
+  padding-top: 20px;
+}
+
 /* ids */
 
 #principal_conteiner {
@@ -176,3 +190,9 @@ p {
 }
 
 #icon_list {  float: right;}
+
+#read_button {
+  width: 60%;
+  height: 25px;
+  padding: 4px;
+}
