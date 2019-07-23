@@ -175,11 +175,4 @@ p {
   display: block;
 }
 
-#principal_image {
-  width: 940px;
-  height: 540px;
-}
-
-#icon_list {
-  float: right;
-}
+#icon_list {  float: right;}
