@@ -56,9 +56,12 @@ h1 {
 
 h3{
   text-align: left;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: bold;
+  margin: 25px 0;
 }
+
+h4{ font-weight: bold;}
 
 main {
   margin-top: 60px;
@@ -74,7 +77,8 @@ figcaption {
   padding: 10px 15px;
   font-size: 15px;
   font-style: italic;
-  color: gray;
+  color: #666666;
+  width: 70%;
 }
 
 button {
@@ -89,22 +93,23 @@ button {
   text-transform: uppercase;
 }
 
+
+p {
+  font-family: "times new roman";
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
 /* classes */
+
+.small {  font-size: 16px;}
 
 .block {  display: block;}
 
 .gray {color: gray;}
 
-.story_board {
-  width: 65%;
+.story_board div {
+  width: 600px;
   margin: auto;
-}
-
-.center {
-  display: block;
-  width: 80%;
-  margin: 40px auto;
-
 }
 
 .header_center {
@@ -112,9 +117,7 @@ button {
   margin: 100px auto;
 }
 
-.inline_flex {
-  display: flex;
-}
+.inline_flex {  display: flex;}
 
 .inline { margin-top: 15px;}
 
