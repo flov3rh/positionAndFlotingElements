@@ -21,6 +21,7 @@ q:before, q:after { content:''; }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 p {
@@ -185,30 +186,54 @@ p {
 
 .more_section {
   width: 100%;
-  height: 40px;
-  background-color: red;
+  height: auto;
+  margin: 30px;
 }
 
 .same_section {
+  display: flex;
+  flex-wrap: wrap;
   float: left;
   width: 65%;
-  height: 20px;
-  background-color: blue;
+  height: auto;
+  border-top: 2px solid black;
+  padding-top: 10px;
 }
 
 .editors_pick {
   clear: both;
   width: 65%;
-  height: 20px;
+  height: auto;
+  border-top: 2px solid black;
+  padding-top: 10px;
   background-color: yellow;
 }
 
 .most_popular {
   float: right;
   width: 30%;
-  height: 20px;
+  height: auto;
   background-color: green;
 }
+
+.same_image {
+  width: 30%;
+  height: auto;
+}
+
+.same_image img{
+  width: 269px;
+  height: 180px;
+}
+
+.same_image div{
+  width: 100%;
+}
+
+.margin_left {
+  margin-left: 40px;
+}
+
 /* ids */
 
 #principal_conteiner {
@@ -221,4 +246,13 @@ p {
   width: 60%;
   height: 25px;
   padding: 4px;
+}
+
+
+#more_title {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
