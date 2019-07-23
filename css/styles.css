@@ -91,6 +91,11 @@ figcaption {
   display: inline;
 }
 
+.icon_size {
+  width: 25px;
+  height: 25px;
+}
+
 /* ids */
 
 #principal_conteiner {
