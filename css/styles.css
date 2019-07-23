@@ -13,6 +13,7 @@ q:before, q:after { content:''; }
 
 /*END OF RESET CSS*/
 
+body { display: block;}
 
 * {
   margin: 0;
@@ -20,13 +21,18 @@ q:before, q:after { content:''; }
   box-sizing: border-box;
 }
 
-#principal_conteiner {
-  width: 1000px;
-}
-
-#header {
+nav {
   position: fixed;
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: red;
+}
+
+main {
+
+}
+
+#principal_conteiner {
+  width: 1000px;
 }
