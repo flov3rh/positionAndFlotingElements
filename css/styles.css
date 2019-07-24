@@ -248,11 +248,16 @@ p {
   padding: 4px;
 }
 
-
 #more_title {
   width: 100%;
   height: auto;
   text-align: left;
   font-size: 35px;
   margin-bottom: 15px;
+}
+
+#figure1 {
+  width: 1000px;
+  height: auto;
+  margin-left: ;
 }
