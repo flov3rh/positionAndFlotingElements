@@ -118,7 +118,6 @@ p {
   margin: 100px auto;
 }
 
-.inline_flex {  display: flex;}
 
 .inline { margin-top: 15px;}
 
@@ -194,16 +193,17 @@ p {
   height: auto;
   border-top: 2px solid black;
   padding-top: 10px;
-  background-color: red;
+
 }
 
 .editors_pick {
+  display: flex;
+  flex-wrap: wrap;
   clear: both;
   width: 65%;
   height: auto;
   border-top: 2px solid black;
   padding-top: 10px;
-  background-color: yellow;
 }
 
 .most_popular {
