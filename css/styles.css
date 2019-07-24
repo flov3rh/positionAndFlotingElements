@@ -284,11 +284,13 @@ p {
 
 .inline_flex { display: flex;}
 
-#subscribe {
-  border-left: 2px solid lightgray;
-}
-#subscribe ul li i{
-  margin-left: -20px;
+.subscribe { border-left: 2px solid lightgray;}
+
+.subscribe ul li i { margin-left: -20px;}
+
+.subscribe ul li:nth-child(-n+4) {
+  font-size: 25px;
+  font-weight: bold;
 }
 /* ids */
 
