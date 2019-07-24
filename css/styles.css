@@ -194,6 +194,7 @@ p {
   height: auto;
   border-top: 2px solid black;
   padding-top: 10px;
+  background-color: red;
 }
 
 .editors_pick {
@@ -209,8 +210,21 @@ p {
   float: right;
   width: 30%;
   height: auto;
-  background-color: green;
+  border-top: 2px solid black;
 }
+
+.most_popular h4 { margin: 20px 0;}
+
+.border_bottom li{
+  border-top: 2px solid rgb(226, 226, 226);
+  list-style-type: none;
+  margin-left: -20px;
+  padding: 20px 0;
+}
+
+.most_popular_links {  font: normal normal 500 20px nyt-cheltenham;}
+
+.most_popular_links:hover { color:gray;}
 
 .same_image {
   width: 30%;
@@ -222,13 +236,9 @@ p {
   height: 180px;
 }
 
-.same_image div{
-  width: 100%;
-}
+.same_image div{  width: 100%;}
 
-.margin_left {
-  margin-left: 40px;
-}
+.margin_left {  margin-left: 40px;}
 
 /* ids */
 
@@ -249,8 +259,7 @@ p {
   width: 100%;
   height: auto;
   text-align: left;
-  font-size: 35px;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 #figure1 {
