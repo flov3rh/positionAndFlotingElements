@@ -29,8 +29,8 @@ p {
 }
 
 body {
-  display: block;
   font-family: arial;
+  display: block;
 }
 
 nav {
@@ -122,9 +122,7 @@ p {
 
 .inline { margin-top: 15px;}
 
-.inline *{
-  display: inline;
-}
+.inline * {  display: inline;}
 
 .icon_size {
   width: 35px;
@@ -185,9 +183,7 @@ p {
 }
 
 .more_section {
-  width: 100%;
-  height: auto;
-  margin: 30px;
+  margin: 20px;
 }
 
 .same_section {
@@ -238,6 +234,7 @@ p {
 
 #principal_conteiner {
   display: block;
+
 }
 
 #icon_list {  float: right;}
@@ -259,5 +256,5 @@ p {
 #figure1 {
   width: 1000px;
   height: auto;
-  margin-left: ;
+  margin-left: -120px;
 }
