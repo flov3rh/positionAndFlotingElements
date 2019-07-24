@@ -108,6 +108,10 @@ p {
 
 .gray {color: gray;}
 
+.gray * {
+  color: gray;
+}
+
 .story_board div {
   width: 600px;
   margin: auto;
@@ -239,6 +243,13 @@ p {
 .same_image div{  width: 100%;}
 
 .margin_left {  margin-left: 40px;}
+
+.footer_style{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  border-top: 2px solid lightgray;
+}
 
 /* ids */
 
