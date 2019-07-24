@@ -256,6 +256,7 @@ p {
   list-style-type: none;
   margin-left: -20px;
   margin-right: 50px;
+  margin-top: 20px;
 }
 
 .list_style_footer ul li:hover{ text-decoration: underline; }
