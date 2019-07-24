@@ -251,6 +251,40 @@ p {
   border-top: 2px solid lightgray;
 }
 
+
+.list_style_footer ul li{
+  list-style-type: none;
+  margin-left: -20px;
+  margin-right: 50px;
+}
+
+.list_style_footer ul li:hover{ text-decoration: underline; }
+
+.list_style_footer *{
+  padding-left: 20px;
+}
+
+.site_index {
+  box-sizing: border-box;
+}
+
+.list_conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.inline_flex { display: flex;}
+
+.subscribe {
+  border-left: 2px solid lightgray;
+}
 /* ids */
 
 #principal_conteiner {
@@ -277,4 +311,10 @@ p {
   width: 1000px;
   height: auto;
   margin-left: -120px;
+}
+
+#nyt_image {
+  width: 306px;
+  height: 50px;
+  margin-left: -10px;
 }
