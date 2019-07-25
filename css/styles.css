@@ -307,7 +307,7 @@ p {
   padding: 4px;
 }
 
-#more_title {
+.more_title {
   width: 100%;
   height: auto;
   text-align: left;
