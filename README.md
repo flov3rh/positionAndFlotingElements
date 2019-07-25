@@ -11,6 +11,7 @@ This is the third project of the Main HTML/CSS curriculum at [Microverse](https:
 #### Screenshots
 
 ![alt Not found Screenshot_1.png](screenshots/Screenshot_1.png)
+![alt Not found Screenshot_2.png](screenshots/Screenshot_3.png)
 ![alt Not found Screenshot_2.png](screenshots/Screenshot_2.png)
 
 
